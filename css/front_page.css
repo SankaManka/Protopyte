@@ -1,0 +1,45 @@
+*|* {
+	padding: 0; margin: 0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	height: 100%;
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 160px 15px 160px;
+	box-sizing: border-box;
+	background-color: #40796F;
+	height: 70px;
+}
+.header h1 img {
+	vertical-align: middle;
+	height: 60px;
+}
+.logo-nature {
+	font-size: 25px;
+	float: right;
+	padding-top: 10px;
+	padding-left: 5px;
+	font-family: 'Potta One', cursive;
+}
+.menu {
+	display: flex;
+	list-style: none;
+}
+.menu li{
+	margin-left: 94px;
+}
+.menu li a{
+	color: #ffffff; 
+	text-decoration: none;
+}
+.menubar {
+	transition: 0.5s;
+}
+.menubar:hover{
+	transform: scale(2);
+}
