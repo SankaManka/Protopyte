@@ -1,0 +1,65 @@
+.account {
+    margin-top: 211px;
+    max-width: 560px;
+    min-height: 620px;
+    margin: 0 auto;
+}
+.account_create {
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 100px;
+    font-size: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.reg_field {
+    line-height: 2px;
+    margin: 10px;
+    padding: 5px;
+}
+input {
+    width: 350px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+.input_border {
+    border: 0.7px solid #A7A7A7;
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 17px;
+}
+.btn_block {
+    display: flex;
+    justify-content: center;
+}
+.account_exists {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: #000;
+    justify-content: center;
+}
+
+.btn_stl:hover {
+    background: #64A095E5;
+    transition: all .4s;
+    text-decoration-color: white;
+}
+.btn_stl{
+    background: #CB8761;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 60%;
+    border: none;
+    font-size: 15px;
+    color: black;
+    margin-top: 40px;
+}
+.btn_stl a{
+    font-size: 24px;
+    text-decoration: none;
+
+}

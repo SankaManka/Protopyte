@@ -1,6 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
 .slider {
-	height: 640px;
+	height: 540px;
 	width: 1920px;
 	overflow: hidden;
-	border: 10px solid #fff;
+}
+.middle {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+.navigation {
+	position: absolute;
+	bottom: 16px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+.bar {
+	height: 10px;
+	width: 10px;
+	margin: 6px;
+	cursor: pointer;
+	transition: all .4s ease;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.bar:hover {
+	transform: scale(1.5);
+}
+input[name="r"] {
+	position: absolute;
+	visibility: hidden;
+}
+.slides {
+	display: flex;
+	width: 400%;
+	height: 100%;
+}
+.slide {
+	width: 25%;
+	transition: all .6s ease;
+}
+.slide img {
+	width: 100%;
+	height: 100%;
+}
+#r1:checked ~ .s1 {
+	margin-left: 0;
+}
+#r2:checked ~ .s1 {
+	margin-left: -25%;
+}
+#r3:checked ~ .s1 {
+	margin-left: -50%;
+}
+.text1 {
+	position: absolute;
+	font-size: 48px;
+	font-weight: 600;
+	left: 15%;
+	top: 25%;
+	color: white;
+}
+.text2 {
+	position: absolute;
+	font-size: 20px;
+	font-weight: 400;
+	left: 15%;
+	top: 50%;
+	color: white;
+}
+.btn-map {
+	position: absolute;
+	font-size: 16px;
+	font-weight: 200;
+	left: 15%;
+	top: 65%;
+	color: black;
+	height: 43px;
+	width: 270px;
+	border-radius: 15px;
+	border-style: none;
+	opacity: 70%;
+}
+.btn-map:hover {
+	opacity: 100%;
+	transition: all .4s ease;
+}
+.information {
+	position: absolute;
+	width: 373px;
+	height: 76px;
+	left: 15%;
+	top: 68%;
+	display: flex;	
+	align-items: center;
+}
+.mail {
+	background: #CB8761;
+	border-radius: 15px;
+	width: 76px;
+	height: 76px;
+}
+.mail1 { 
+	position: relative;
+	color: black;
+	left: 21px;
+}
+.mail img {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 8px;
+	top: 8px;
+}
+.information1 {
+	position: absolute;
+	width: 373px;
+	height: 76px;
+	left: 45%;
+	top: 68%;
+	display: flex;	
+	align-items: center;
+}
+.information2 {
+	position: absolute;
+	width: 373px;
+	height: 76px;
+	left: 75%;
+	top: 68%;
+	display: flex;	
+	align-items: center;
+}
+.mail-2 img{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 13px;
+	top: 13px;
+}
+.mail-2 {
+	background: #CB8761;
+	border-radius: 15px;
+	width: 76px;
+	height: 76px;
+}
+.choosing {
+	position: absolute;
+	width: 600px;
+	height: 47px;
+	left: 35%;
+	top: 820px;
+}
+.choosing-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 47px;
+	color: #000000;
+	text-align: center;
+}
+.choosing-text img {
+	text-align: center;
+	margin-top: 20px;
+}
+.map {
+	position: absolute;
+	width: 1107px;
+	height: 730px;
+	left: 21%;
+	top: 990px;
+}
+.pictures {
+	position: absolute;
+	width: 152px;
+	height: 28px;
+	left: 46%;
+	top: 1855px;
+}
+.pictures-1 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+.line {
+	margin-top: 15px;
+	width: 104px;
+	margin-left: 25px;
+	border: 1px solid black;
+}
+.foto1 {
+	position: absolute;
+	width: 455px;
+	height: 281px;
+	left: 400px;
+	top: 1928px;
+}
+.foto2 {
+	position: absolute;
+	width: 346px;
+	height: 281px;
+	left: 877px;
+	top: 1928px;
+}
+.foto3 {
+	position: absolute;
+	width: 274.02px;
+	height: 281px;
+	left: 1245px;
+	top: 1928px;
+}
+.foto4 {
+	position: absolute;
+	width: 274px;
+	height: 281px;
+	left: 400px;
+	top: 2228px;
+}
+.foto5 {
+	position: absolute;
+	width: 346px;
+	height: 281px;
+	left: 697px;
+	top: 2228px;
+}
+.foto6 {
+	position: absolute;
+	width: 455px;
+	height: 281px;
+	left: 1063px;
+	top: 2228px;
+}
+.f{
+	min-height: 100%;
 }

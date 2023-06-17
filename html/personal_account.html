@@ -4,60 +4,167 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/footer-2.css">
+	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="/css/account.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
 	<title>Иван Иванов</title>
 </head>
 <body>
+
 	<header class="header">
 		<h1>
-			<img src="/img/logo.png" class="logo">
-			Nature
+			<img src="/img/logo.png" class="logo" p>
+				<p class="logo-nature">Nature heals</p>
 		</h1>
 		<nav>
 			<ul class="menu">
-				<li class="menubar"><a href="header.html">Главная</a></li>
+				<li class="menubar"><a href="first_page.html">Главная</a></li>
+				<li class="menubar"><a href="map.html">Карта</a></li>
 				<li class="menubar"><a href="forum.html">Сообщество</a></li>
-				<li class="menubar"><a href="header.html">Выйти</a></li>
+				<li class="menubar"><a href="enter.html">Войти</a></li>
 			</ul>
 		</nav>
 	</header>
-	<div class="avatar_img">
-		<img src="/img/avatar.jpg" class="avatar">
-		<h2 class="data">Иван Иванов</h2>
-	</div>
+
 	<div class="sidebar">
-		<ul style="list-style-type: none;">
-			<li><img src="/img/star.png" alt=""><a href="personal_account.html">Избранное</a></li>
-			<li><img src="/img/list.png" alt=""><a href="history.html">История</a></li>
-			<li><img src="/img/settings.png" alt=""><a href="settings.html">Настройки</a></li>
-			<li><img src="/img/language.png" alt=""><a href="language.html">Язык</a></li>
-			<li><img src="/img/out.png" alt=""><a href="header.html">Выйти</a></li>
+		<div class="menu-content">
+			<i class='bx bx-menu' id="btn"></i>
+		</div>
+		<ul class="nav-list">
+				<li>
+					<a href="#">
+						<i class='bx bx-heart' ></i>
+						<span class="links-name">Избранное</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class='bx bx-cog' ></i>
+						<span class="links-name">Настройки</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class='bx bx-copy-alt'></i>
+						<span class="links-name">Язык</span>
+					</a>
+				</li>
+				<li>
+					<a href="enter.html">
+						<i class='bx bx-log-out-circle'></i>
+						<span class="links-name">Выйти</span>
+					</a>
+				</li>
 		</ul>
 	</div>
-	<div class="container">
-		<div class="grid">
-			<aside><img src="/img/w1.jpg" alt="" class="image"></aside>
-			<article class="inf">
-				<h1>Громово Парк</h1>
-				<p>База отдыха «Громово Парк» - современная комфортабельная база отдыха, 
-					расположенная в живописном уголке природы, на Карельском перешейке Ленинградской области, 
-					в 86 км от города по Приозерскому шоссе, в окружении вековых сосен и двух озер с кристально чистой водой.</p>
-			</article>
-		</div>
+	<div class="avatar">
+		<img src="/img/avatar.jpg" alt="">
+		<ul class="change">
+			<li><a href="change_name.html">Изменить личные данные</a></li>
+			<li><a href="change_password.html">Изменить пароль</a></li>
+			<li><a href="change_email.html">Изменить адрес эл. почты</a></li>
+		</ul>
 	</div>
-	<div class="container1">
-		<div class="grid">
-			<aside><img src="/img/w3.jpg" alt="" class="image"></aside>
-			<article class="inf">
-				<h1>Причудье</h1>
-				<p>Удивительно чистый воздух, незабываемая охота, увлекательная рыбалка, живописная природа — все, 
-					доступно для проведения выходных в «Причудье». Туристическая комплекс находится на побережье Нарвы, 
-					в Ленинградской области, в деревне Скамья. В летний период, территория комплекса усажена цветами.</p>
-			</article>
+	<section class="like-it"><p>Избранное</p> <hr class="line"></section>
+`	<div class="card" id="#block">
+		<section class ="delete">
+			<div class="">
+				<i class='bx bxs-heart' id="#button"></i>
+				<span onclick="hideDiv()">Удалить из избранного</span>
+			</div>
+		</section>
+		<div class="img-1">
+			<img src="/img/img1.png" alt="">
+			<h3>Громово Парк</h3>
+			<p>База отдыха «Громово Парк» - современная комфортабельная база отдыха</p>
 		</div>
+		<section class="navigate">
+			<a href="">
+				<i class='bx bx-chevron-right' id="#button"></i>
+				<p>Перейти</p>
+			</a>
+		</section>
 	</div>
+
+	<div class="card-2" id="#block1">
+		<section class="delete">
+			<div class="">
+				<i class='bx bxs-heart' id="#button1"></i>
+				<span onclick="hideDiv1()">Удалить из избранного</span>
+			</div>
+		</section>
+		<div class="img-2">
+			<img src="/img/img2.png" alt="">
+			<h3>Причудье</h3>
+			<p>Удивительно чистый воздух, незабываемая охота, увлекательная рыбалка, живописная природа — все, доступно для проведения выходных в «Причудье». </p>
+		</div>
+		<section class="navigate">
+			<a href="">
+				<i class='bx bx-chevron-right'></i>
+				<p>Перейти</p>
+			</a>
+		</section>
+	</div>
+
+	<section class="story"><p>История</p> <hr class="line"></section>
+
+	<div class="card-3">
+		<div class="img-1">
+			<img src="/img/img1.png" alt="">
+			<h3>Громово Парк</h3>
+			<p>База отдыха «Громово Парк» - современная комфортабельная база отдыха</p>
+		</div>
+		<section class="navigate">
+			<a href="">
+				<i class='bx bx-chevron-right'></i>
+				<p>Перейти</p>
+			</a>
+		</section>
+	</div>
+
+	<div class="card-4">
+		<div class="img-1">
+			<img src="/img/img2.png" alt="">
+			<h3>Причудье</h3>
+			<p>Удивительно чистый воздух, незабываемая охота, увлекательная рыбалка, живописная природа — все, доступно для проведения выходных в «Причудье». </p>
+		</div>
+		<section class="navigate">
+			<a href="">
+				<i class='bx bx-chevron-right'></i>
+				<p>Перейти</p>
+			</a>
+		</section>
+	</div>
+
+	<div class="card-5">
+		<div class="img-1">
+			<img src="/img/img3.png" alt="">
+			<h3>Лумиваара</h3>
+			<p>Посещение исторических мест, конные прогулки, пикники у озера ― все это отдых в Карелии в дачных домах «Лумиваара».</p>
+		</div>
+		<section class="navigate">
+			<a href="">
+				<i class='bx bx-chevron-right'></i>
+				<p>Перейти</p>
+			</a>
+		</section>
+	</div>
+	<footer>
+		<div class="footer-container">
+			<ul class="social-icons">
+				<li><a href="https://www.instagram.com/your_instagram_link"><img src="/img/inst.png" alt="Instagram"></a></li>
+				<li><a href="https://www.pinterest.com/your_pinterest_link"><img src="/img/vk.png" alt="VK"></a></li>
+				<li><a href="https://www.pinterest.com/your_pinterest_link"><img src="/img/pint.png" alt="Pinterest"></a></li>
+				<li><a href="https://t.me/your_telegram_link"><img src="/img/teleg.png" alt="Telegram"></a></li>
+			</ul>
+			<p class="footer-text">&copy; <strong>Nature heals</strong></p>
+		</div>
+	</footer>
 </body>
+<script src="/javascript/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </html>

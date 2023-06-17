@@ -1,0 +1,12 @@
+.register {
+    font-size: 40px;
+    font-weight: 100;
+    margin: 91px 0 0 160px;
+}
+.singin {
+    margin-top: 40px;
+    margin-left: 162px;
+}
+.singin > a {
+    color: #000;
+}

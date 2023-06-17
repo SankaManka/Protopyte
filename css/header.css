@@ -41,5 +41,5 @@ body{
 	transition: 0.5s;
 }
 .menubar:hover{
-	transform: scale(2);
+	transform: scale(1.3);
 }

@@ -1,0 +1,153 @@
+.commments h1 {
+    margin-left: 160px;
+    margin-top: 94px;
+    font-weight: 700;
+    font-size: 32px;
+    border-bottom: 1px solid;
+}
+.comments {
+    width: 1120px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin: -200px 0px 0 -350px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}.str {
+     border-top: 1px solid;
+     transition: .5s;
+
+ }
+.str:hover {
+    background-color: #9BBDB7;
+    color: #fff;
+}
+.cntr {
+    text-align: left;
+}
+.cntr a {
+    color: #000;
+    text-decoration: none;
+}
+table {
+    display: table;
+    justify-content: center;
+    align-items: end;
+    min-height: 100%;
+    width: 83%;
+    border-collapse: collapse;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+td {
+     font-size: 20px;
+     padding: 15px 35px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+}
+th {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+.caption {
+    font-size: 0.8em;
+    display: block;
+    margin-top: 5px;
+}
+.category {
+    text-decoration: underline;
+    margin-left: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.category-row {
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 51px 0 0 160px;
+
+}
+.for {
+    background-color: #DAAA8F;
+    height: 45px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fr{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 160px;
+    font-weight: bold;
+}
+.register {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 51px 0 0 160px;
+}
+.gg{
+    width: 20px;
+    height: 23px;
+    margin-left: 22px;
+}
+.forum {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 51px 0 0 160px;
+
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.caption {
+    font-size: 0.8em;
+    display: block;
+}
+
+.cntr {
+    text-align: left;
+}
+
+.st{
+    background-color: #9BBDB7;
+    color: #fff;
+}

@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	overflow:scroll;
+}
+
+.avatar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	left: 300px;
+	top: 50px;
+	position: relative;
+}
+.avatar img {
+	border-radius: 500px;
+	left: 300px;
+	top: 55px;
+	width: 150px
+}
+.change {
+	position: relative;
+	left: -40%;
+}
+.change li {
+	list-style: none;
+	margin-top: 35px;
+	text-align: end;
+}
+.change li a {
+	color: black;
+	font-size: 15px;
+}
+.like-it {
+	position: absolute;
+	width: 175px;
+	height: 38px;
+	left: 299px;
+	top: 377px;
+	font-size: 32px;
+	font-weight: 600;
+}
+.line {
+	position: absolute;
+	width: 1155px;
+	top: 40px;
+	border: 1px solid #000000;
+}
+.card {
+	position: absolute;
+	left: 15.5%;
+	top: 50%;
+	background: rgba(218, 170, 143, 0.6);
+	border-radius: 15px;
+	width: 265px;
+	height: 392px;
+}
+.card-2 {
+	position: absolute;
+	left: 32%;
+	top: 50%;
+	background: rgba(218, 170, 143, 0.6);
+	border-radius: 15px;
+	width: 265px;
+	height: 392px;
+}
+.delete {
+	text-align: center;
+	margin-top: 15px;
+}
+.delete div {
+	text-decoration: none;
+	color: #000000;
+}
+.delete div i {
+	color: #40796F;
+	height: 14px;
+	width: 16px;
+}
+.img-1 img {
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.img-1 h3 {
+	margin-left: 14px;
+	margin-top: 18px;
+}
+.img-1 p {
+	margin-top: 16px;
+	margin-left: 14px;
+	font-size: 13px;
+}
+.navigate {
+	margin-top: 35px;
+	margin-left: 171px;
+	width: 60px;
+}
+.navigate a p{
+	font-size: 12px;
+	color: #000000;
+}
+.navigate a {
+	color: #000000;
+}
+.navigate a i{
+	width: 8px;
+	height: 10px;
+	float: right;
+}
+.img-2 img{
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.img-2 h3 {
+	margin-left: 14px;
+	margin-top: 18px;
+}
+.img-2 p {
+	margin-top: 16px;
+	margin-left: 14px;
+	font-size: 13px;
+}
+.card-2 .navigate {
+	margin-top: 5px;
+}
+.story {
+	position: absolute;
+	width: 175px;
+	height: 38px;
+	left: 299px;
+	top: 900px;
+	font-size: 32px;
+	font-weight: 600;
+}
+.card-3 {
+	position: absolute;
+	left: 15.5%;
+	top: 1000px;
+	background: rgba(218, 170, 143, 0.6);
+	border-radius: 15px;
+	width: 265px;
+	height: 392px;
+}
+.card-3 .navigate {
+	margin-top: 6px;
+}
+.card-4 {
+	position: absolute;
+	left: 32%;
+	top: 1000px;
+	background: rgba(218, 170, 143, 0.6);
+	border-radius: 15px;
+	width: 265px;
+	height: 392px;
+}
+.card-5 {
+	position: absolute;
+	left: 48.5%;
+	top: 1000px;
+	background: rgba(218, 170, 143, 0.6);
+	border-radius: 15px;
+	width: 265px;
+	height: 392px;
+}
+.card-5 .navigate {
+	margin-top: 50px;
+}
+.sidebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 170%;
+	width: 78px;
+	background: #A0C5C0;
+	padding: 6px 14px;
+	transition: all .4s ease;
+}
+.sidebar.active {
+	width: 240px;
+}
+.sidebar #btn{
+	position: absolute;
+	color: black;
+	left: 50%;
+	top: 0;
+	font-size: 20px;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	line-height: 50px;
+	transform: translateX(-50%);
+}
+.sidebar.active #btn {
+	left: 90%;
+}
+.links-name {
+	opacity: 0;
+	pointer-events: none;
+}
+.sidebar.active .links-name {
+	opacity: 1;
+	pointer-events: auto;
+}
+.sidebar ul {
+	margin-top: 50px;
+}
+.sidebar ul li {
+	position: relative;
+	list-style: none;
+	height: 50px;
+	width: 100%;
+	margin: 0 5px;
+	line-height: 50px;
+}
+.sidebar ul li a {
+	color: black;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	transition: all .4s ease;
+	border-radius: 12px;
+}
+.sidebar ul li a:hover {
+	background: #DAAA8F;
+}
+.sidebar ul li a i {
+	height: 50px;
+	min-width: 50px;
+	border-radius: 15px;
+	line-height: 50px;
+	text-align: center;
+}

@@ -1,0 +1,123 @@
+.commments h1 {
+    margin-left: 160px;
+    margin-top: 34px;
+    font-weight: 700;
+    font-size: 32px;
+    border-bottom: 1px solid;
+}
+.comments {
+    width: 1120px;
+    height: 60px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    margin: -200px 0 0 -350px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+	"aside article"
+	"aside article";
+}
+.image {
+    max-width: 110px;
+    max-height: 110px;
+    border-radius: 16px;
+    margin: 24px 0px 0px 20px;
+}
+.com {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.com > h1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.com > p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 17px;
+}
+.com > h2 {
+    margin-top: 60px;
+    border-bottom: 1px solid;
+}
+.comments1 {
+    width: 1120px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin: 10px 0px 0 -350px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.comments2 {
+    width: 1120px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin: 210px 0px 0 -350px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 1px solid;
+}
+.for {
+    background-color: #DAAA8F;
+    height: 45px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fr{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 160px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+}
+.green-button {
+    background-color: #A0C5C0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 80%;
+    left: 75%;
+
+
+}
+
+.button-text {
+    margin-right: 5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
